@@ -4,7 +4,9 @@ import { AuthProvider } from "./AuthProvider";
 import { Navbar } from "@/components/Navbar"
 import { Teko } from "next/font/google"
 
-const teko = Teko()
+const teko = Teko({
+  subsets: ['latin']
+})
 
 export const metadata: Metadata = {
   title: "Calisthenics App",
