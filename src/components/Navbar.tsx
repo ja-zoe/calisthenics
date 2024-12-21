@@ -16,7 +16,7 @@ export const Navbar = async () => {
     console.log(isUserAuthenticated)
 
     return (
-    <div className="absolute h-20 w-screen border-b-black border-b-4 flex items-center justify-between px-5 lg:px-52">
+    <div className="fixed h-20 w-full border-b-black border-b-4 flex items-center justify-between px-5 lg:px-52">
         <div>
             <h1 className="text-2xl"><Link href="/">Placeholder</Link></h1>
         </div>

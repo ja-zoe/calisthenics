@@ -22,7 +22,7 @@ export default function RootLayout({
     <AuthProvider>
       <html lang="en">
         <body
-          className={`${teko.className} antialiased border-black border-4`}
+          className={`${teko.className} antialiased border-black border-4 h-screen`}
           >
           <Navbar />
           {children}
